@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MoonShine</title>
+
+    <!-- Custom CSS Link-->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Fontawesome CSS CDN Link -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.2/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Slick Slide CSS CDN Links -->
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.8/slick.min.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.8/slick-theme.min.css" />
+
+</head>
+
+<body>
+
+    <div class="page-content">
+
+        <header>
+            <div class="top-bar">
+                <div class="discount-offer">
+                    <a href="#">
+                        <h1>big fish sale! We have so much fish! 100% off! </h1>
+                        <i class="fa-solid fa-chevron-up"></i>
+                    </a>
+                </div>
+            </div>
+            <nav class="site-container">
+                <div class="inner-container">
+
+                    <input type="checkbox" id="toggle-btn">
+                    <label for="toggle-btn" class="show-menu-btn"><i class="fa-solid fa-bars"
+                            onclick="changeIcon(this)"></i></label>
+                    <!-- <label for="toggle-btn" class="show-menu-btn">
+                        <img src="/assets/images/hamburger.png" alt="" onclick="changeIcon(this)">
+                    </label> -->
+                    <div class="left-menu menu-list">
+                        <ul>
+                            <li><a href="index.html"  class="active"> Shop All </a></li>
+                            <li><a href="#"> Fish </a></li>
+                            <li><a href="#"> Apparel </a></li>
+                            <li><a href="#"> Accessories </a></li>
+                            <li class="left-menu-item-mob"><a href="#"> about us </a></li>
+                            <li class="left-menu-item-mob"><a href="#"> Blog </a></li>
+                        </ul>
+                    </div>
+                    <div class="site-logo brand-logo">
+                        <a href="index.html"> <img src="/assets/images/LowRes- (Traced).png" alt=""> </a>
+                    </div>
+                    <div class="right-menu menu-list right-menu-desktop">
+                        <ul>
+                            <li><a href="#"> Search </a></li>
+                            <li><a href="#"> about us </a></li>
+                            <li><a href="#"> Blog </a></li>
+                            <a href="#">
+                                <div class="cart">
+                                    <div class="cart-icon">
+                                        <i class="fa-solid fa-tag"></i>
+                                    </div>
+                                    <div class="items-icon">
+                                        <h3>1</h3>
+                                    </div>
+                                </div>
+                            </a>
+                        </ul>
+                    </div>
+                    <div class="right-menu-mobile right-menu">
+                        <ul>
+                            <li><a href="#"> <i class="fa-solid fa-magnifying-glass"></i> </a></li>
+                            <a href="#">
+                                <div class="cart">
+                                    <div class="cart-icon">
+                                        <i class="fa-solid fa-tag"></i>
+                                    </div>
+                                    <div class="items-icon">
+                                        <h3>1</h3>
+                                    </div>
+                                </div>
+                            </a>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <section class="hero-section">
+            <div class="site-container">
+                <div class="inner-container">
+                    <div class="content">
+                        <div class="title">
+                            <h1> “Moonshine is outperforming the no.1 Fly Rod company”</h1>
+                            <p> Shop our seasonal Fly rods while supplies last.</p>
+                        </div>
+                        <div class="hero-btns">
+                            <div class="shop-bgwhite-btn">
+                                <a href="#"> Shop Seasonal </a>
+                            </div>
+                            <div class="shop-transparent-btn">
+                                <a href="#"> Shop Seasonal </a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="foods-product">
+            <div class="site-container">
+                <div class="product-cards food-product-slider">
+                    <div class="card product-1">
+                        <div class="content">
+                            <h3>a subheader for the card</h3>
+                            <h1 class="title">Freshwater Rods & Reels</h1>
+                            <div class="shop-bgyellow-btn">
+                                <a href="#"> Shop Seasonal </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card product-2">
+                        <div class="content">
+                            <h3>a subheader for the card</h3>
+                            <h1 class="title">Freshwater Rods & Reels</h1>
+                            <div class="shop-bgwhite-btn">
+                                <a href="#"> Shop Seasonal </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card product-3">
+                        <div class="content">
+                            <h3>a subheader for the card</h3>
+                            <h1 class="title">Freshwater Rods & Reels</h1>
+                            <div class="shop-bgwhite-btn">
+                                <a href="#"> Shop Seasonal </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="field-notes">
+            <div class="site-container">
+                <div class="section-title">
+                    <h1>Field Notes at a glance</h1>
+                </div>
+                <div class="quality-cols">
+                    <div class="quality quality-col1">
+                        <div class="quality-topbar active">
+                            <div class="heading">
+                                <h5 class="quality-col-number">01</h5>
+                                <h2 class="quality-title">quality title</h2>
+                            </div>
+                            <div class="toggle-see-more">
+                                <h2 class="see-more">See More <span><i class="fa-solid fa-plus"></i></span></h2>
+                                <h2 class="see-less"> See Less <span><i class="fa-solid fa-minus"></i></span></h2>
+                            </div>
+                        </div>
+                        <div class="content quality-content">
+                            <h3>quality metric 1</h3>
+                            <h1 class="title">Quality subheader</h1>
+                        </div>
+                    </div>
+                    <div class="quality quality-col2">
+                        <div class="quality-topbar">
+                            <div class="heading">
+                                <h5 class="quality-col-number">02</h5>
+                                <h2 class="quality-title">quality title</h2>
+                            </div>
+                            <div class="toggle-see-more">
+                                <h2 class="see-more">See More  <span><i class="fa-solid fa-plus"></i></h3>
+                                <h2 class="see-less"> See Less <span><i class="fa-solid fa-minus"></i></span></h2>
+                            </div>
+                        </div>
+                        <div class="content quality-content">
+                            <h3>quality metric 2</h3>
+                            <h1 class="title">Quality subheader</h1>
+                        </div>
+                    </div>
+                    <div class="quality quality-col3">
+                        <div class="quality-topbar">
+                            <div class="heading">
+                                <h5 class="quality-col-number">03</h5>
+                                <h2 class="quality-title">quality title</h2>
+                            </div>
+                            <div class="toggle-see-more">
+                                <h2 class="see-more">See More  <span><i class="fa-solid fa-plus"></i></h3>
+                                <h2 class="see-less"> See Less <span><i class="fa-solid fa-minus"></i></span></h2>
+                            </div>
+                        </div>
+                        <div class="content quality-content">
+                            <h3>quality metric 3</h3>
+                            <h1 class="title">Quality subheader</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="vesper-collection">
+            <h3 class="section-title">Vesper Collection</h3>
+            <div class="site-container inner-container">
+                <div class="location">
+                    <h1 class="shop-title">Shop by location</h1>
+                    <div class="cols">
+                        <div class="content-col">
+                            <div class="top-part">
+                                <h2>where are you fishing?</h2>
+                                <div class="toggles-buttons">
+                                    <button class="toggleButton active" onclick="toggleContent('content1', this)"> North
+                                        PAcific
+                                    </button>
+                                    <button class="toggleButton" onclick="toggleContent('content2', this)"> South
+                                        PAcific
+                                    </button>
+                                    <button class="toggleButton" onclick="toggleContent('content3', this)"> central
+                                    </button>
+                                    <button class="toggleButton" onclick="toggleContent('content4', this)"> North
+                                        Atlantic
+                                    </button>
+                                    <button class="toggleButton" onclick="toggleContent('content5', this)"> South
+                                        Atlantic
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="toggles-content">
+                                <div id="content1" class="toggleContent">
+                                    <h5>North PAcific</h5>
+                                    <p>Colorado, texas, and the great states of central Us. freshwater rapids and
+                                        bass the size of your arm.</p>
+                                    <div class="shop-location-btn">
+                                        <a href="#">Shop Your Location</a>
+                                    </div>
+                                </div>
+                                <div id="content2" class="toggleContent">
+                                    <h5>South PAcific</h5>
+                                    <p>Colorado, texas, and the great states of central Us. freshwater rapids and
+                                        bass the size of your arm.</p>
+                                    <div class="shop-location-btn">
+                                        <a href="#">Shop Your Location</a>
+                                    </div>
+                                </div>
+                                <div id="content3" class="toggleContent">
+                                    <h5>central</h5>
+                                    <p>Colorado, texas, and the great states of central Us. freshwater rapids and
+                                        bass the size of your arm.</p>
+                                    <div class="shop-location-btn">
+                                        <a href="#">Shop Your Location</a>
+                                    </div>
+                                </div>
+                                <div id="content4" class="toggleContent">
+                                    <h5>North Atlantic</h5>
+                                    <p>Colorado, texas, and the great states of central Us. freshwater rapids and
+                                        bass the size of your arm.</p>
+                                    <div class="shop-location-btn">
+                                        <a href="#">Shop Your Location</a>
+                                    </div>
+                                </div>
+                                <div id="content5" class="toggleContent">
+                                    <h5>South Atlantic</h5>
+                                    <p>Colorado, texas, and the great states of central Us. freshwater rapids and
+                                        bass the size of your arm.</p>
+                                    <div class="shop-location-btn">
+                                        <a href="#">Shop Your Location</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="featuredImg-col">
+                            <img src="assets/images/vesper-collection-img.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="site-container fish-container">
+                <div class="inner-container">
+                    <div class="fishes ">
+                        <h1 class="shop-title">Shop by Fish</h1>
+                        <div class="fish-slider">
+
+                            <div class="fish fish-3">
+                                <div class="fish-details">
+                                    <h3 class="fish-name"> Salmon </h3>
+                                    <h4 class="fish-weight"> 4wt-6wt </h4>
+                                </div>
+                            </div>
+                            <div class="fish fish-7">
+                                <div class="fish-details">
+                                    <h3 class="fish-name"> Pike </h3>
+                                    <h4 class="fish-weight"> 5wt-6wt </h4>
+                                </div>
+                            </div>
+                            <div class="fish fish-5">
+                                <div class="fish-details">
+                                    <h3 class="fish-name"> Bonefish </h3>
+                                    <h4 class="fish-weight"> 7wt-12wt </h4>
+                                </div>
+                            </div>
+                            <div class="fish fish-6">
+                                <div class="fish-details">
+                                    <h3 class="fish-name"> bass </h3>
+                                    <h4 class="fish-weight"> 3wt-4wt</h4>
+                                </div>
+                            </div>
+
+                            <div class="fish fish-4">
+                                <div class="fish-details">
+                                    <h3 class="fish-name"> Pike </h3>
+                                    <h4 class="fish-weight"> 5wt-6wt </h4>
+                                </div>
+                            </div>
+
+
+                            <div class="fish fish-1">
+                                <div class="fish-details">
+                                    <h3 class="fish-name"> trout </h3>
+                                    <h4 class="fish-weight"> 2wt-3wt </h4>
+                                </div>
+                            </div>
+                            <div class="fish fish-2">
+                                <div class="fish-details">
+                                    <h3 class="fish-name"> bass </h3>
+                                    <h4 class="fish-weight"> 3wt-4wt</h4>
+                                </div>
+                            </div>
+
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="weather">
+            <div class="site-container ">
+                <div class="inner-container">
+                    <div class="content">
+                        <div class="description">
+                            <p class="desk-para"> let any fish who meets my gaze learn the true meaning of fear,</p>
+                            <p class="mob-para ">for i am the harbinger of death; the bane of creatures subaqueous.</p>
+                            <h1 class="title">weather the storm.</h1>
+                        </div>
+                        <div class="hero-btns">
+                            <div class="shop-bgwhite-btn">
+                                <a href="#"> Shop apparel </a>
+                            </div>
+                            <div class="shop-transparent-btn">
+                                <a href="#"> Shop all </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="site-container weather-sec">
+                <div class="top-bar-weather">
+                    <h2>weather the storm.</h2>
+                    <div class="socials-icons">
+                        <div class="tiktok"> <i class="fa-brands fa-tiktok"></i> </div>
+                        <div class="twitter"> <i class="fa-brands fa-twitter"></i> </div>
+                        <div class="instagram"> <i class="fa-brands fa-instagram"></i> </div>
+                        <div class="facebook"> <i class="fa-brands fa-facebook"></i> </div>
+                    </div>
+                </div>
+                <div class="weather-fish-images weather-fish-images-slider">
+                    <img src="/assets/images/weather-fish4.png" alt="">
+                    <img src="/assets/images/weather-fish3.png" alt="">
+                    <img src="/assets/images/weather-fish2.png" alt="">
+                    <img src="/assets/images/weather-fish1.png" alt="">
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <div class="site-container">
+                <div class="top-footer">
+                    <div class="left-col">
+                        <div class="site-logo">
+                            <img src="/assets/images/Moonshine Lightning (Traced).png" alt="">
+                        </div>
+                        <div class="socials-icons">
+                            <div class="tiktok"> <i class="fa-brands fa-tiktok"></i> </div>
+                            <div class="twitter"> <i class="fa-brands fa-twitter"></i> </div>
+                            <div class="instagram"> <i class="fa-brands fa-instagram"></i> </div>
+                            <div class="facebook"> <i class="fa-brands fa-facebook"></i> </div>
+                        </div>
+                    </div>
+                    <div class="right-col">
+                        <div class="menus">
+                            <div class="menu-list">
+                                <div class="menu-item"> <a href="#"> where to find us </a></div>
+                                <div class="menu-item"> <a href="#"> discounts </a></div>
+                                <div class="menu-item"> <a href="#"> lifetime warranty </a></div>
+                            </div>
+                            <div class="menu-list">
+                                <div class="menu-item"> <a href="#"> Help </a></div>
+                                <div class="menu-item"> <a href="#"> Refunds </a></div>
+                                <div class="menu-item"> <a href="#"> shipping & Returns </a></div>
+                            </div>
+                            <div class="menu-list">
+                                <div class="menu-item"> <a href="#">Press </a></div>
+                                <div class="menu-item"> <a href="#">Contact Us </a></div>
+                                <div class="menu-item"> <a href="#">Careers </a></div>
+                            </div>
+                            <div class="menu-list">
+                                <div class="menu-item"> <a href="#">demos </a></div>
+                                <div class="menu-item"> <a href="#">how-to </a></div>
+                                <div class="menu-item"> <a href="#">youtube </a></div>
+                            </div>
+                        </div>
+                        <div class="form">
+                            <div class="information">
+                                <h1>never miss a bite.</h1>
+                                <p>sign-up with your email for updates, seasonals, and other promotional information.
+                                </p>
+                            </div>
+                            <form action="#" method="post">
+                                <div class="form-control">
+                                    <div class="form-field">
+                                        <!-- <label for="name">Name</label> -->
+                                        <input type="text" name="name" id="name" placeholder="name">
+                                    </div>
+                                    <div class="form-field">
+                                        <!-- <label for="email">Email</label> -->
+                                        <input type="email" name="email" id="email" placeholder="Email address">
+                                    </div>
+                                </div>
+                                <div class="form-submit">
+                                    <button type="submit"> Subcribe</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="bottom-bar">
+                    <div class="copyright">
+                        <h3>Copyright © 2023, Moonshine Rod Company</h3>
+                    </div>
+                    <div class="official-doc-menu">
+                        <div class="menu-list">
+                            <div class="menu-item"> <a href="#">terms & conditions </a></div>
+                            <div class="menu-item"> <a href="#">accessibility </a></div>
+                            <div class="menu-item"> <a href="#">privacy policy </a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+</body>
+
+<!-- Slick SLider JS/jQuery CDN Links -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.8/slick.min.js"></script>
+<!-- Custom JS Link -->
+<script src="script.js"></script>
+
+</html>
