@@ -222,7 +222,7 @@ header .inner-container .right-menu-mobile ul i {
 .hero-section {
   max-width: 100%;
   width: 100%;
-  background: url(/assets/images/hero-bg.png) no-repeat center center;
+  background: url(./assets/images/hero-bg.png) no-repeat center center;
   background-size: cover;
 }
 
@@ -392,7 +392,7 @@ header .inner-container .right-menu-mobile ul i {
       rgba(195, 145, 67, 0.2) 0%,
       rgba(195, 145, 67, 0.2) 100%
     ),
-    url(/assets/images/product_1.png),
+    url(./assets/images/product_1.png),
     lightgray -172.833px 0px / 192.931% 108.846% no-repeat;
 }
 .foods-product .product-cards .product-2 {
@@ -406,7 +406,7 @@ header .inner-container .right-menu-mobile ul i {
       rgba(195, 145, 67, 0.2) 0%,
       rgba(195, 145, 67, 0.2) 100%
     ),
-    url(/assets/images/product_2.png),
+    url(./assets/images/product_2.png),
     lightgray -172.833px 0px / 192.931% 108.846% no-repeat;
 }
 .foods-product .product-cards .product-3 {
@@ -420,7 +420,7 @@ header .inner-container .right-menu-mobile ul i {
       rgba(195, 145, 67, 0.2) 0%,
       rgba(195, 145, 67, 0.2) 100%
     ),
-    url(/assets/images/product_3.png),
+    url(./assets/images/product_3.png),
     lightgray -172.833px 0px / 192.931% 108.846% no-repeat;
 }
 .foods-product .product-cards .card .content {
@@ -708,7 +708,7 @@ header .inner-container .right-menu-mobile ul i {
       rgba(195, 145, 67, 0.2) 0%,
       rgba(195, 145, 67, 0.2) 100%
     ),
-    url(/assets/images/trout-fish.png) no-repeat center/cover, lightgray 50%;
+    url(./assets/images/trout-fish.png) no-repeat center/cover, lightgray 50%;
 }
 .vesper-collection .fishes .fish-slider .fish.fish-2 {
   background: linear-gradient(
@@ -721,7 +721,7 @@ header .inner-container .right-menu-mobile ul i {
       rgba(195, 145, 67, 0.2) 0%,
       rgba(195, 145, 67, 0.2) 100%
     ),
-    url(/assets/images/bass-fish.png) no-repeat center/cover, lightgray 50%;
+    url(./assets/images/bass-fish.png) no-repeat center/cover, lightgray 50%;
 }
 .vesper-collection .fishes .fish-slider .fish.fish-3 {
   background: linear-gradient(
@@ -734,7 +734,7 @@ header .inner-container .right-menu-mobile ul i {
       rgba(195, 145, 67, 0.2) 0%,
       rgba(195, 145, 67, 0.2) 100%
     ),
-    url(/assets/images/salmon-fish.png) no-repeat center/cover, lightgray 50%;
+    url(./assets/images/salmon-fish.png) no-repeat center/cover, lightgray 50%;
 }
 .vesper-collection .fishes .fish-slider .fish.fish-4 {
   background: linear-gradient(
@@ -747,7 +747,7 @@ header .inner-container .right-menu-mobile ul i {
       rgba(195, 145, 67, 0.2) 0%,
       rgba(195, 145, 67, 0.2) 100%
     ),
-    url(/assets/images/pike-fish.png) no-repeat center/cover, lightgray 50%;
+    url(./assets/images/pike-fish.png) no-repeat center/cover, lightgray 50%;
 }
 .vesper-collection .fishes .fish-slider .fish.fish-5 {
   background: linear-gradient(
@@ -760,7 +760,7 @@ header .inner-container .right-menu-mobile ul i {
       rgba(195, 145, 67, 0.2) 0%,
       rgba(195, 145, 67, 0.2) 100%
     ),
-    url(/assets/images/bonefish.png) no-repeat center/cover, lightgray 50%;
+    url(./assets/images/bonefish.png) no-repeat center/cover, lightgray 50%;
 }
 .vesper-collection .fishes .fish-slider .fish.fish-6 {
   background: linear-gradient(
@@ -773,7 +773,7 @@ header .inner-container .right-menu-mobile ul i {
       rgba(195, 145, 67, 0.2) 0%,
       rgba(195, 145, 67, 0.2) 100%
     ),
-    url(/assets/images/bass-fish.png) no-repeat center/cover, lightgray 50%;
+    url(./assets/images/bass-fish.png) no-repeat center/cover, lightgray 50%;
 }
 .vesper-collection .fishes .fish-slider .fish.fish-7 {
   background: linear-gradient(
@@ -786,7 +786,7 @@ header .inner-container .right-menu-mobile ul i {
       rgba(195, 145, 67, 0.2) 0%,
       rgba(195, 145, 67, 0.2) 100%
     ),
-    url(/assets/images/pike-fish.png) no-repeat center/cover, lightgray 50%;
+    url(./assets/images/pike-fish.png) no-repeat center/cover, lightgray 50%;
 }
 .vesper-collection .fishes .fish-slider .fish.slick-slide .fish-details {
   display: flex;
@@ -878,7 +878,7 @@ header .inner-container .right-menu-mobile ul i {
   background: #d5cebe;
 }
 .weather .inner-container {
-  background: url(/assets/images/weather-bg.png) no-repeat center center;
+  background: url(./assets/images/weather-bg.png) no-repeat center center;
   background-size: cover;
   padding: 175px 20px;
   border-radius: 8px;
@@ -1618,7 +1618,6 @@ footer .bottom-bar .official-doc-menu .menu-list .menu-item a {
 }
 
 @media screen and (min-width: 1441px) {
-
   /* footer  */
 
   footer .top-footer .left-col .site-logo {
