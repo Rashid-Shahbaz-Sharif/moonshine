@@ -182,8 +182,8 @@ $(document).ready(function () {
       // Hide all quality content initially except the first one
       $(".quality .content.quality-content").not(":first").hide();
 
-      // Remove 'active' class from all quality-topbars
-      $(".quality .quality-topbar").removeClass("active");
+      // Add 'active' class to the first quality-topbar
+      $(".quality .quality-topbar:first").addClass("active");
 
       // Add click event to quality-topbar to toggle content
       $(".quality .quality-topbar")

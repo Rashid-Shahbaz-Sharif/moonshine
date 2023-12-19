@@ -40,6 +40,9 @@ img {
   overflow-clip-margin: border-box;
   overflow: hidden;
 }
+.slick-slider {
+  margin-bottom: 0px !important;
+}
 
 .site-container {
   max-width: 100%;
@@ -58,10 +61,9 @@ img {
   padding: 4px 0px;
 }
 .top-bar .discount-offer a {
-  max-width: 151px;
   margin: 0 auto;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   gap: 10px;
 }
@@ -69,7 +71,7 @@ img {
 .top-bar .discount-offer h1 {
   color: #142122;
   text-align: center;
-  font-size: 11px;
+  font-size: 18px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -78,7 +80,7 @@ img {
 }
 .top-bar .discount-offer i {
   transform: rotate(90deg);
-  font-size: 7px;
+  font-size: 14px;
   stroke-width: 1px;
   stroke: #142122;
   color: #142122;
@@ -111,7 +113,6 @@ header .site-container .inner-container .menu-list ul {
 header .inner-container .left-menu {
   display: block;
   order: 1;
-  max-width: 240px;
 }
 
 header .inner-container .left-menu .left-menu-item-mob {
@@ -125,23 +126,19 @@ header .inner-container .site-logo {
   position: absolute;
   left: 0;
   right: 0;
-  top: 30px;
+  top: 40px;
   margin: 0 auto;
 }
 
 header .inner-container .right-menu {
-  max-width: 210px;
   display: flex;
   justify-content: end;
   order: 3;
 }
-header .inner-container .right-menu ul {
-  max-width: 255px;
-}
 
 header .site-container .inner-container .menu-list ul li a {
   color: #e9e5dc;
-  font-size: 16px;
+  font-size: 18px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -281,14 +278,12 @@ header .inner-container .right-menu-mobile ul i {
 }
 .shop-bgwhite-btn {
   display: flex;
-  padding: 16px 89px;
+  padding: 16px 80px;
   justify-content: center;
   align-items: center;
   gap: 24px;
   border-radius: 2px;
   background: #e9e5dc;
-}
-.shop-bgwhite-btn a {
   color: #142122;
   font-size: 16px;
   font-style: normal;
@@ -297,16 +292,22 @@ header .inner-container .right-menu-mobile ul i {
   letter-spacing: 0.48px;
   text-transform: uppercase;
 }
+.shop-bgwhite-btn:hover {
+  background: #c39143;
+}
+
+.shop-transparent-btn:hover {
+  background: #e9e5dc;
+  color: #142122;
+}
 .shop-transparent-btn {
   display: flex;
-  padding: 16px 89px;
+  padding: 16px 80px;
   justify-content: center;
   align-items: center;
   gap: 24px;
   border-radius: 2px;
   border: 1px solid #e9e5dc;
-}
-.shop-transparent-btn a {
   color: #e9e5dc;
   font-size: 16px;
   font-style: normal;
@@ -317,13 +318,11 @@ header .inner-container .right-menu-mobile ul i {
 }
 .shop-bgyellow-btn {
   display: flex;
-  padding: 16px 89px;
+  padding: 16px 80px;
   justify-content: center;
   align-items: center;
   gap: 24px;
   background: #c39143;
-}
-.shop-bgyellow-btn a {
   color: #142122;
   font-size: 16px;
   font-style: normal;
@@ -332,7 +331,9 @@ header .inner-container .right-menu-mobile ul i {
   letter-spacing: 0.48px;
   text-transform: uppercase;
 }
-
+.shop-bgyellow-btn:hover {
+  background: #e9e5dc;
+}
 .shop-location-btn {
   display: flex;
   width: fit-content;
@@ -342,8 +343,6 @@ header .inner-container .right-menu-mobile ul i {
   gap: 24px;
   border-radius: 2px;
   border: 1px solid rgba(20, 33, 34, 0.2);
-}
-.shop-location-btn a {
   color: #142122;
   font-size: 16px;
   font-style: normal;
@@ -351,6 +350,9 @@ header .inner-container .right-menu-mobile ul i {
   line-height: normal;
   letter-spacing: 0.48px;
   text-transform: uppercase;
+}
+.shop-location-btn:hover {
+  background: #c39143;
 }
 
 /* foods-product */
@@ -367,6 +369,7 @@ header .inner-container .right-menu-mobile ul i {
   justify-content: center;
   align-items: center;
   gap: 20px;
+  margin: 0px;
 }
 .foods-product .product-cards .card {
   display: flex;
@@ -549,7 +552,7 @@ header .inner-container .right-menu-mobile ul i {
 /* vesper-collection */
 
 .vesper-collection {
-  padding: 80px 0px 0px 0px;
+  padding: 80px 0px 80px 0px;
   background: #d5cebe;
   overflow: hidden;
 }
@@ -631,7 +634,7 @@ header .inner-container .right-menu-mobile ul i {
   padding: 16px;
   border-radius: 2px;
   border: 1px solid rgba(20, 33, 34, 0.2);
-  background-color: transparent;
+  background: transparent;
   color: #142122;
   font-size: 14px;
   font-style: normal;
@@ -640,7 +643,9 @@ header .inner-container .right-menu-mobile ul i {
   letter-spacing: 0.42px;
   text-transform: uppercase;
 }
-
+.vesper-collection .location .cols .content-col .toggles-buttons button:hover {
+  background: #c39143;
+}
 .vesper-collection .location .cols .content-col .toggleContent {
   display: none;
   max-width: 425px;
@@ -686,6 +691,7 @@ header .inner-container .right-menu-mobile ul i {
 }
 
 .vesper-collection .fishes .fish-slider {
+  margin: 0px;
   z-index: 2;
 }
 .vesper-collection .fishes .fish-slider .fish.slick-slide {
@@ -919,7 +925,7 @@ header .inner-container .right-menu-mobile ul i {
 }
 .weather .content .hero-btns .shop-transparent-btn a,
 .weather .content .hero-btns .shop-bgwhite-btn a {
-  width: 91px;
+  /* width: 91px; */
 }
 
 .weather .weather-sec {
@@ -1342,10 +1348,11 @@ footer .bottom-bar .official-doc-menu .menu-list .menu-item a {
   }
 
   /* foods-product */
-
-  .foods-product .site-container,
-  .vesper-collection .site-container {
-    padding: 0px 0px 0px 24px;
+  .foods-product {
+    padding: 16px 0px;
+  }
+  .foods-product .site-container {
+    padding: 0px 0px 0px 16px;
   }
 
   .foods-product .product-cards .card .content {
@@ -1370,6 +1377,16 @@ footer .bottom-bar .official-doc-menu .menu-list .menu-item a {
   }
 
   /* vesper-collection */
+  .foods-product {
+    padding: 40px 0px 0px 0px;
+  }
+  .vesper-collection .site-container {
+    padding: 0px 0px 0px 24px;
+  }
+
+  .vesper-collection .site-container {
+    padding-top: 30px;
+  }
 
   .vesper-collection .inner-container h1.shop-title {
     max-width: 320px;
@@ -1389,6 +1406,9 @@ footer .bottom-bar .official-doc-menu .menu-list .menu-item a {
   }
   .vesper-collection .location .cols .content-col .top-part {
     padding: 20px 20px 20px 20px;
+  }
+  .vesper-collection .location .cols .content-col .toggleContent {
+    max-width: 100%;
   }
   .vesper-collection .location .cols .content-col .toggles-content {
     padding: 20px;
@@ -1452,6 +1472,12 @@ footer .bottom-bar .official-doc-menu .menu-list .menu-item a {
 
   /* weather   */
 
+  .weather .site-container {
+    padding: 24px;
+  }
+  .weather .site-container.weather-sec {
+    padding: 24px 0px 26px 24px;
+  }
   .weather .content p.mob-para {
     display: none;
   }
